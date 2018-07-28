@@ -1,18 +1,6 @@
-# 幕课网 ccmouse 分布式爬虫
 
-## 整体构构图
+##分布式爬虫（以www.zhenai.com为例）
 
-
-
-![](https://ws1.sinaimg.cn/large/006tKfTcly1frf8tc77lvj30m00cadge.jpg)
-
-![](https://ws4.sinaimg.cn/large/006tKfTcly1frf8uarwm3j30lz0cft9l.jpg)
-
-![分布式结构](https://ws3.sinaimg.cn/large/006tKfTcly1frf8ybx0lhj30lz0cf0tt.jpg)
-
-## crawler
-
-单机版爬虫到单机并发版爬虫，爬虫的核心都在此文件夹内
 
 >存储使用的是 elasticsearch
 docker run -d -p 9200:9200 elasticsearch
